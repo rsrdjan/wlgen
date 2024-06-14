@@ -21,4 +21,6 @@ wlgen.sh -l 8 -m 13 -d 2 https://banjaluka.net
 ```
 In the above example, `wlgen` crawls `https://banjaluka.net` with link depth of 2, fetching words that are between 8 and 13 chars long and saves the wordlist in `banjaluka.net.wordlist` file.
 
+If you are missing dependencies, for the first time you should run with `sudo`.
+
 
